@@ -106,9 +106,7 @@ function initScene2() {
     // List your videos here (replace with your actual filenames in assets/videos/)
     const videoList = [
         
-        'assets/videos/video3.mp4',
-        'assets/videos/video4.mp4',
-        'assets/videos/video5.mp4',
+        '
         'assets/videos/video6.mp4',
         'assets/videos/video7.mp4'
         
@@ -363,3 +361,4 @@ function initScene5() {
         summaryDiv.appendChild(wrapper);
     });
 }
+
