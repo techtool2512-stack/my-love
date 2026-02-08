@@ -107,8 +107,8 @@ function initScene2() {
     const videoList = [
         
         '
-        'assets/videos/video6.mp4',
-        'assets/videos/video7.mp4'
+        'assets/videos/video6.mp4'
+        
         
     ];
 
@@ -361,4 +361,5 @@ function initScene5() {
         summaryDiv.appendChild(wrapper);
     });
 }
+
 
