@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Love Experience</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Scene container -->
+    <div id="scene-container">
+
+        <!-- Scene 1: Particle intro -->
+        <div class="scene" id="scene1">
+            <canvas id="particle-canvas"></canvas>
+            <div class="scene1-text">
+                <p class="fade-text">My Love</p>
+                <p class="fade-text">I love you sooo muchhh</p>
+                <p class="fade-text">crazyy this our first february but never the last </p>
+            </div>
+        </div>
+
+        <!-- Scene 2: Video montage -->
+        <div class="scene" id="scene2">
+            <video id="video-player" width="800" height="450" autoplay muted playsinline></video>
+
+        </div>
+
+        <!-- Scene 3: Slideshow + Poem -->
+        <div class="scene" id="scene3">
+            <div id="slideshow"></div>
+            <div id="poem">
+                <p id="poem-text"></p>
+            </div>
+        </div>
+
+        <!-- Scene 4: Questions -->
+        <div class="scene" id="scene4">
+            <form id="questions-form">
+                <!-- JS will insert questions here -->
+            </form>
+            <button id="submit-answers">Submit</button>
+        </div>
+
+        <!-- SCENE 5: Final Hearts Animation -->
+        <section id="scene5" class="scene hidden">
+            <div id="finalMessage">I'll love you to death</div>
+            <canvas id="heartCanvas"></canvas>
+        </section>
+
+    </div>
+
+    <!-- Audio -->
+    <audio id="bg-music" loop></audio>
+
+    <script src="https://cdn.jsdelivr.net/npm/three@0.152.2/build/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
